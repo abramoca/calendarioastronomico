@@ -1,0 +1,96 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: url(https://i.pinimg.com/originals/47/90/62/4790621f38f9d9b5f45eca1dc0f5f9eb.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h2{
+	font-weight: 700;
+	color: #04dee2;
+}
+p {
+	font-weight: 300;
+	color: white;
+}
+.container{
+	margin: 500 auto;
+	width: 500 px;
+
+}
+.flex{
+	display: flex;
+}
+.text-center{
+	text-align: center;
+}
+.columnas{
+	background: rgba(0, 0, 0, .8);
+	color: #333;
+	border: 1px solid #333;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, .9);;
+}
+.btn{
+	background: #14c9b8;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.btn:hover {
+	color: #333;
+	transition: all, .3s;
+}
+
+li {
+	font-weight: 300;
+	color: white;
+	text-align: left;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: rgba(0, 0, 0, .8);
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+position: relative;
+display: inline-block;
+}
+.menu > li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+}
+.menu li a:hover{
+	color: 	#04dee2;
+	transition: all, .3s;
+}
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 200px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;

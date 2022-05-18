@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(https://www.xtrafondos.com/wallpapers/rick-y-morty-en-el-espacio-9232.jpg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+background-attachment: fixed;
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: rgba(0, 0, 0, .8);
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+position: relative;
+display: inline-block;
+}
+.menu > li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+}
+.menu li a:hover{
+	color: 	#b824a2;
+	transition: all, .3s;
+}
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.box{
+	width: 500px;
+	background: rgba(0, 0, 0, .8);
+	margin: 0 auto;
+	margin-top: 4%;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	border-radius: 5%;
+}
+.box-img{
+	border-radius: 50%;
+	object-fit: cover;
+}
+.box h1{
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-weight: 100;
+	margin: 30px 0 20px;
+}
+.box h2{
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+.box p{
+	text-align: justify;
+	padding: 10px;
+}
